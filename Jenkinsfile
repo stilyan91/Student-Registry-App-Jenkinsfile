@@ -19,15 +19,4 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            // Actions to perform after the pipeline runs, e.g., clean up, send notifications
-        }
-        success {
-            // Actions to perform if the pipeline was successful
-        }
-        failure {
-            // Actions to perform if the pipeline failed
-        }
-    }
 }
